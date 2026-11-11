@@ -1,0 +1,91 @@
+{
+  "name": "Aalam Khan",
+  "tagline": "Learning. Building. Improving.",
+  "about": "I'm developing practical skills in technology, AI governance, programming, communication and problem-solving.",
+  "profiles": {
+    "linkedin": "https://www.linkedin.com/in/aalam-khan-819310401",
+    "github": "https://github.com/Akatsuki777777"
+  },
+  "projects": [
+    {
+      "name": "AI Governance Control Centre",
+      "description": "A prototype for tracking AI risks, incidents and corrective actions.",
+      "url": "https://fascinating-bavarois-efb3c1.netlify.app/"
+    },
+    {
+      "name": "Majan Printing",
+      "description": "A website project for a printing and packaging business.",
+      "url": "https://cheery-rabanadas-74b21a.netlify.app/"
+    },
+    {
+      "name": "WillYouBeMine",
+      "description": "An interactive personal web development project.",
+      "url": "https://will-you-be-mine-love.netlify.app/"
+    }
+  ],
+  "skills": [
+    {
+      "name": "AI tools",
+      "level": "Practical use"
+    },
+    {
+      "name": "AI governance",
+      "level": "Developing"
+    },
+    {
+      "name": "Web development",
+      "level": "Beginner"
+    },
+    {
+      "name": "Python",
+      "level": "Beginner"
+    },
+    {
+      "name": "Excel and Google Sheets",
+      "level": "Basic"
+    },
+    {
+      "name": "Work coordination",
+      "level": "Work experience"
+    },
+    {
+      "name": "Quality checking",
+      "level": "Work experience"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Nepali",
+      "level": "Native"
+    },
+    {
+      "name": "Urdu",
+      "level": "Native"
+    },
+    {
+      "name": "English",
+      "level": "Self-assessed strength"
+    },
+    {
+      "name": "Arabic",
+      "level": "Learning"
+    }
+  ],
+  "learning": {
+    "duolingo": {
+      "streak": 78,
+      "gems": 4026,
+      "arabicScore": 13,
+      "englishScore": 60,
+      "lastUpdated": "2026-11-11"
+    },
+    "mimo": {
+      "course": "Python Developer",
+      "progress": 27,
+      "completedSections": 3,
+      "totalSections": 11,
+      "functionsProgress": 82,
+      "lastUpdated": "2026-11-11"
+    }
+  }
+}

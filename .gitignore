@@ -1,0 +1,4 @@
+*.backup
+*.before-*
+*.step2-backup
+backups/
