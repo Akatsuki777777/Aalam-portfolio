@@ -269,6 +269,7 @@ dialog p,dialog li { color:var(--muted); }
   <p id="dialogDescription"></p>
   <ul id="dialogPoints"></ul>
   <a class="btn" id="dialogLink" href="#" target="_blank" rel="noopener">Open project ↗</a>
+  <a class="btn" id="dialogDownload" href="AI_Recruitment_Risk_Register_Final.xlsx" download hidden>Download Risk Register (Excel) ↓</a>
 </dialog>
 
 <script>
@@ -281,7 +282,8 @@ const projects = {
       "Incident records and corrective actions.",
       "A learning project in practical AI governance."
     ],
-    url: "https://fascinating-bavarois-efb3c1.netlify.app/"
+    url: "https://fascinating-bavarois-efb3c1.netlify.app/",
+    downloadUrl: "AI_Recruitment_Risk_Register_Final.xlsx"
   },
   majan: {
     title: "Majan Printing",
@@ -314,6 +316,9 @@ document.querySelectorAll("[data-project]").forEach(card => {
     document.getElementById("dialogPoints").innerHTML =
       project.points.map(point => `<li>${point}</li>`).join("");
     document.getElementById("dialogLink").href = project.url;
+    const download = document.getElementById("dialogDownload");
+    download.hidden = !project.downloadUrl;
+    if (project.downloadUrl) download.href = project.downloadUrl;
     dialog.showModal();
   });
 });
