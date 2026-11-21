@@ -13,6 +13,11 @@
       "url": "https://fascinating-bavarois-efb3c1.netlify.app/"
     },
     {
+      "name": "Recruitment Fairness Checker",
+      "description": "A Python prototype comparing recruitment selection-rate differences using synthetic data.",
+      "url": "https://github.com/Akatsuki777777/recruitment-fairness-checker"
+    },
+    {
       "name": "Majan Printing",
       "description": "A website project for a printing and packaging business.",
       "url": "https://cheery-rabanadas-74b21a.netlify.app/"

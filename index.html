@@ -125,14 +125,20 @@ dialog p,dialog li { color:var(--muted); }
       <p>A prototype for tracking AI risks, incidents and corrective actions.</p>
       <span class="card-action">Explore project ↗</span>
     </button>
+    <button class="card project-card" data-project="fairness">
+      <span class="number">PROJECT 02 · AI GOVERNANCE & PYTHON</span>
+      <h3>Recruitment Fairness Checker</h3>
+      <p>A Python prototype for comparing recruitment selection rates using synthetic data.</p>
+      <span class="card-action">Explore project ↗</span>
+    </button>
     <button class="card project-card" data-project="majan">
-      <span class="number">PROJECT 02 · WEB DEVELOPMENT</span>
+      <span class="number">PROJECT 03 · WEB DEVELOPMENT</span>
       <h3>Majan Printing</h3>
       <p>A website project for a printing and packaging business.</p>
       <span class="card-action">Explore project ↗</span>
     </button>
     <button class="card project-card" data-project="mine">
-      <span class="number">PROJECT 03 · INTERACTIVE WEB</span>
+      <span class="number">PROJECT 04 · INTERACTIVE WEB</span>
       <h3>WillYouBeMine</h3>
       <p>An interactive personal web project built while learning web development.</p>
       <span class="card-action">Explore project ↗</span>
@@ -284,6 +290,17 @@ const projects = {
     ],
     url: "https://fascinating-bavarois-efb3c1.netlify.app/",
     downloadUrl: "AI_Recruitment_Risk_Register_Final.xlsx"
+  },
+  fairness: {
+    title: "Recruitment Fairness Checker",
+    description: "An independent Python learning project exploring recruitment selection-rate differences through synthetic data.",
+    points: [
+      "Compares selection rates across groups and calculates lowest-to-highest ratios.",
+      "Includes CSV reporting, input validation and six passing automated tests.",
+      "Uses a fictional 100-record dataset; results are screening signals, not proof of discrimination or legal compliance.",
+      "Built with Python's standard library."
+    ],
+    url: "https://github.com/Akatsuki777777/recruitment-fairness-checker"
   },
   majan: {
     title: "Majan Printing",
