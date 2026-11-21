@@ -144,12 +144,6 @@ dialog p,dialog li { color:var(--muted); }
       <p>An interactive personal web project built while learning web development.</p>
       <span class="card-action">Explore project ↗</span>
     </button>
-    <button class="card project-card" data-project="riskRegister">
-      <span class="number">PROJECT 05 · AI GOVERNANCE</span>
-      <h3>AI Recruitment Risk Register</h3>
-      <p>An Excel-based register for documenting, assessing and monitoring AI-related risks.</p>
-      <span class="card-action">Explore project ↗</span>
-    </button>
   </div>
 </section>
 
@@ -283,7 +277,6 @@ dialog p,dialog li { color:var(--muted); }
   <ul id="dialogPoints"></ul>
   <a class="btn" id="dialogLink" href="#" target="_blank" rel="noopener">Open live demo ↗</a>
   <a class="btn secondary" id="dialogSource" href="#" target="_blank" rel="noopener" hidden>View source code ↗</a>
-  <a class="btn" id="dialogDownload" href="AI_Recruitment_Risk_Register_Final.xlsx" download hidden>Download Risk Register (Excel) ↓</a>
 </dialog>
 
 <script>
@@ -332,16 +325,6 @@ const projects = {
     ],
     url: "https://will-you-be-mine-love.netlify.app/"
   },
-  riskRegister: {
-    title: "AI Recruitment Risk Register",
-    description: "An Excel-based working document for recording and monitoring risks associated with AI systems.",
-    points: [
-      "Structured fields for documenting AI-related risks.",
-      "Supports risk assessment, ownership and mitigation tracking.",
-      "A practical AI governance project; not a certified compliance framework."
-    ],
-    downloadUrl: "AI_Recruitment_Risk_Register_Final.xlsx"
-  }
 };
 
 const dialog = document.getElementById("projectDialog");
