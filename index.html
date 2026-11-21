@@ -144,6 +144,12 @@ dialog p,dialog li { color:var(--muted); }
       <p>An interactive personal web project built while learning web development.</p>
       <span class="card-action">Explore project ↗</span>
     </button>
+    <button class="card project-card" data-project="riskRegister">
+      <span class="number">PROJECT 05 · AI GOVERNANCE</span>
+      <h3>AI Recruitment Risk Register</h3>
+      <p>An Excel-based register for documenting, assessing and monitoring AI-related risks.</p>
+      <span class="card-action">Explore project ↗</span>
+    </button>
   </div>
 </section>
 
@@ -325,6 +331,16 @@ const projects = {
       "A personal project in the learning portfolio."
     ],
     url: "https://will-you-be-mine-love.netlify.app/"
+  },
+  riskRegister: {
+    title: "AI Recruitment Risk Register",
+    description: "An Excel-based working document for recording and monitoring risks associated with AI systems.",
+    points: [
+      "Structured fields for documenting AI-related risks.",
+      "Supports risk assessment, ownership and mitigation tracking.",
+      "A practical AI governance project; not a certified compliance framework."
+    ],
+    downloadUrl: "AI_Recruitment_Risk_Register_Final.xlsx"
   }
 };
 
@@ -336,7 +352,9 @@ document.querySelectorAll("[data-project]").forEach(card => {
     document.getElementById("dialogDescription").textContent = project.description;
     document.getElementById("dialogPoints").innerHTML =
       project.points.map(point => `<li>${point}</li>`).join("");
-    document.getElementById("dialogLink").href = project.url;
+    const liveLink = document.getElementById("dialogLink");
+    liveLink.hidden = !project.url;
+    if (project.url) liveLink.href = project.url;
 
     const source = document.getElementById("dialogSource");
     source.hidden = !project.sourceUrl;
