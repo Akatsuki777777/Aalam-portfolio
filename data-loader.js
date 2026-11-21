@@ -9,7 +9,7 @@ fetch("./content.json")
     document.querySelector(".hero p").textContent = data.about;
 
     // Projects
-    const keys = ["governance", "majan", "mine"];
+    const keys = ["governance", "fairness", "majan", "mine"];
     const cards = document.querySelectorAll("[data-project]");
 
     data.projects.forEach((project, index) => {
@@ -24,6 +24,7 @@ fetch("./content.json")
         existing.title = project.name;
         existing.description = project.description;
         existing.url = project.url;
+        existing.sourceUrl = project.sourceUrl;
       }
     });
 

@@ -15,7 +15,8 @@
     {
       "name": "Recruitment Fairness Checker",
       "description": "A Python prototype comparing recruitment selection-rate differences using synthetic data.",
-      "url": "https://github.com/Akatsuki777777/recruitment-fairness-checker"
+      "url": "https://recruitment-fairness-checker.onrender.com",
+      "sourceUrl": "https://github.com/Akatsuki777777/recruitment-fairness-checker"
     },
     {
       "name": "Majan Printing",
